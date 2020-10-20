@@ -20,7 +20,6 @@ public class Main {
         prod = (A * B - C * D);
         System.out.println("DIFERENCA = " + prod);
 
-
         sc.close();
 
     }
