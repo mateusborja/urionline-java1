@@ -1,4 +1,6 @@
-//java distrancia entre dois pontos uri 1015
+/* java Math.sqrt(x) e Math.pow(x,y)
+distrancia entre dois pontos uri 1015
+ */
 package com.mateusborja.urionlinejava1.uri1015;
 
 import java.util.Locale;
