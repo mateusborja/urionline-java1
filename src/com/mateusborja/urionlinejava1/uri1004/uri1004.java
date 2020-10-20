@@ -1,22 +1,23 @@
-package com.mateusborja.urionlinejava1.uri1003;
+package com.mateusborja.urionlinejava1.uri1004;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Main {
+public class uri1004 {
 
     public static void main(String[] args) {
 
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        int A, B, SOMA;
+        int x, y, prod;
 
-        A = sc.nextInt();
-        B = sc.nextInt();
+        x = sc.nextInt();
+        y = sc.nextInt();
 
-        SOMA = A + B;
-        System.out.println("SOMA = " + SOMA);
+        prod = x * y;
+
+        System.out.println("PROD = " + prod);
 
         sc.close();
 

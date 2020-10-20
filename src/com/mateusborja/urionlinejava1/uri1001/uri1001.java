@@ -2,7 +2,7 @@ package com.mateusborja.urionlinejava1.uri1001;
 
 import java.util.Scanner;
 
-public class Main {
+public class uri1001 {
 
     public static void main(String[] args) {
 

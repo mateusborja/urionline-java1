@@ -3,7 +3,7 @@ package com.mateusborja.urionlinejava1.uri1012;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Main {
+public class uri1012 {
 
     public static void main(String[] args) {
 
