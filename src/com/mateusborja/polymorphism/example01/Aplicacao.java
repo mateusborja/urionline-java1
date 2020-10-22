@@ -9,6 +9,9 @@ public class Aplicacao {
         LeiteQuente leiteQuente = new LeiteQuente();
         preparador.prepararBebida(leiteQuente);
 
+        Refrigerante refrigerante = new Refrigerante();
+        preparador.prepararBebida(refrigerante);
+
 
     }
 }

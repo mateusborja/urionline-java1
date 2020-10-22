@@ -8,8 +8,8 @@ public class Preparador {
 
         if (bebida.isAquecer()) {
             System.out.println("Esquentando a bebida " + bebida.getNome());
-            System.out.println("A bebida " + bebida.getNome() + " foi preparada com sucesso...\n");
         }
+        System.out.println("A bebida " + bebida.getNome() + " foi preparada com sucesso\n");
 
     }
 
