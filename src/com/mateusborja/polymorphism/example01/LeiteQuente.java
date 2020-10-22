@@ -3,7 +3,7 @@ package com.mateusborja.polymorphism.example01;
 public class LeiteQuente extends Bebida {
 
     LeiteQuente() {
-        super("Leite Quente", true);
+        super("Leite", true);
 
     }
 
