@@ -4,7 +4,7 @@ package com.mateusborja.urionlinejava1.uri1036;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Main {
+public class uri1036 {
 
     public static void main(String[] args) {
 
