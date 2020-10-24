@@ -12,6 +12,9 @@ public class Aplicacao {
         Refrigerante refrigerante = new Refrigerante();
         preparador.prepararBebida(refrigerante);
 
+        SucoNatural sucoNatural = new SucoNatural();
+        preparador.prepararBebida(sucoNatural);
+
 
     }
 }
