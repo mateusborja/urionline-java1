@@ -1,42 +1,37 @@
 package com.mateusborja.urionlinejava1.uri1038;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        int codigo, qtde;
-        double preco;
-
+        int codigo, quantidade;
 
         codigo = sc.nextInt();
-        qtde = sc.nextInt();
+        quantidade = sc.nextInt();
+
+        double total;
 
         if (codigo == 1) {
-            preco = qtde * 4.00;
-            System.out.printf("Total: R$ %.2f%n ", preco);
+            total = quantidade * 4.0;
 
-        } else if(codigo == 2) {
-            preco = qtde * 4.50;
-            System.out.printf("Total: R$ %.2f%n ", preco);
+        } else if (codigo == 2) {
+            total = quantidade * 4.5;
 
         } else if (codigo == 3) {
-            preco = qtde * 5.00;
-            System.out.printf("Total: R$ %.2f%n ", preco);
+            total = quantidade * 5.0;
 
         } else if (codigo == 4) {
-            preco = qtde * 2.00;
-            System.out.printf("Total: R$ %.2f%n ", preco);
-        } else {
-            preco = qtde * 1.50;
-            System.out.printf("Total: R$ %.2f%n ", preco);
+            total = quantidade * 2.0;
 
+        } else {
+            total = quantidade * 1.5;
         }
+
+        System.out.printf("Total: R$ %.2f%n ", total);
 
         sc.close();
     }
