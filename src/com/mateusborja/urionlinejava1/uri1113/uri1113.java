@@ -4,7 +4,7 @@ package com.mateusborja.urionlinejava1.uri1113;
 
 import java.util.Scanner;
 
-public class Main {
+public class uri1113 {
 
     public static void main(String[] args) {
 
@@ -23,6 +23,8 @@ public class Main {
             X = sc.nextInt();
             Y = sc.nextInt();
         }
+
+        sc.close();
 
     }
 }
