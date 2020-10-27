@@ -1,3 +1,4 @@
+//numeros primos e multipos
 package com.mateusborja.forexample02;
 
 public class ForExampleNumerosPrimos01 {
@@ -37,8 +38,6 @@ public class ForExampleNumerosPrimos01 {
 
             System.out.println();
         }
-
-
 
     }
 
