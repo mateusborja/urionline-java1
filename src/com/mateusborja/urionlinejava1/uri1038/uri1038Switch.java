@@ -14,37 +14,29 @@ public class uri1038Switch {
         System.out.println("Digite a quantidade:");
         int quantidade = sc.nextInt();
 
-        double total = 0;
+        double total;
         switch (codigo) {
-
-            case 1:
+            case 1 -> {
                 total = quantidade * 4.0;
                 System.out.printf("Total a pagar: %.2f%n", total);
-                break;
-
-            case 2:
-                total  = quantidade  * 4.5;
+            }
+            case 2 -> {
+                total = quantidade * 4.5;
                 System.out.printf("Total a pagar: %.2f%n", total);
-                break;
-
-            case 3:
+            }
+            case 3 -> {
                 total = quantidade * 5.0;
                 System.out.printf("Total a pagar: %.2f%n", total);
-                break;
-
-            case 4:
+            }
+            case 4 -> {
                 total = quantidade * 2.0;
                 System.out.printf("Total a pagar: %.2f%n", total);
-                break;
-
-            case 5:
+            }
+            case 5 -> {
                 total = quantidade * 1.5;
                 System.out.printf("Total a pagar: %.2f%n", total);
-                break;
-
-            default: System.out.println("Codigo inválidio.");
-                break;
-
+            }
+            default -> System.out.println("Codigo inválidio.");
         }
 
     }
