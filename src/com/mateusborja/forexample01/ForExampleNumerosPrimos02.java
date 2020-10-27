@@ -1,5 +1,5 @@
 //numeros primos e multipos
-package com.mateusborja.forexample02;
+package com.mateusborja.forexample01;
 
 import java.util.ArrayList;
 import java.util.List;
