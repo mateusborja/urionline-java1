@@ -23,6 +23,7 @@ public class ForExampleNumerosPrimos01 {
                             break;
                         }
                     }
+
                     if (primo)
                         System.out.print(" e primo");
                 }
