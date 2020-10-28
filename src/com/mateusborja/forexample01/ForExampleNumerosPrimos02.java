@@ -39,7 +39,7 @@ public class ForExampleNumerosPrimos02 {
             if(i % 5 == 0) {
                 System.out.println("O numero " + i + " é multiplo 5");
                 lista.add(i);
-                if(i == 10) { // somente no final, exibe multiplos invertidos
+                if(i == 10) {
                     int tamanho = lista.size();
                     for (int l = 0; l < lista.size(); l++) {
                         listaInversa.add(lista.get(tamanho-1));
