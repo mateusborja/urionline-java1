@@ -2,7 +2,7 @@ package com.mateusborja.whileexample01;
 
 import java.util.Scanner;
 
-public class MediaIdades {
+public class WhileExample02 {
 
     public static void main(String[] args) {
 
