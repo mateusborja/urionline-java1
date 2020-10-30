@@ -1,4 +1,7 @@
-//java array
+/* java array simples
+/* de numeros inteiros
+ */
+
 package com.mateusborja.arrayexample01;
 
 import java.util.Scanner;
@@ -19,10 +22,12 @@ public class ArrayExemplo01 {
         }
 
         System.out.println();
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) { //imprimindo os arrays
             System.out.print(vet[i] + " ");
 
         }
+
+        sc.close();
 
     }
 }
