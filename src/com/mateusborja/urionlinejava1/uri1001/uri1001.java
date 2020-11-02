@@ -17,9 +17,7 @@ public class uri1001 {
 
         System.out.println("X = " + X);
 
-
         sc.close();
-
 
     }
 
