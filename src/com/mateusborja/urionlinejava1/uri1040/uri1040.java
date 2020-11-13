@@ -26,7 +26,6 @@ public class uri1040 {
             System.out.println("Aluno em exame.");
 
             float notaExame = sc.nextFloat();
-
             System.out.printf("Nota do exame: %.1f%n", notaExame);
 
             float mediaFinal = (notaExame + media) / 2f;
