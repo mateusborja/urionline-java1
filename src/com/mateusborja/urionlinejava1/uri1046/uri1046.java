@@ -36,5 +36,7 @@ public class uri1046 {
 
         sc.close();
 
+
+
     }
 }
