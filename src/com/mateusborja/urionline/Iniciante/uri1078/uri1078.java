@@ -1,5 +1,14 @@
+/*
+ *
+ *  * Copyright (c) 2020.  | All rights reserved
+ *  * Mateus Borja // UX Designer • 3D Artist • Developer
+ *  * www.mateusborja.life
+ *
+ *
+ */
+
 //java for - uri 1078 - TABUADA
-package com.mateusborja.urionlinejava1.uri1078;
+package com.mateusborja.urionline.Iniciante.uri1078;
 
 import java.util.Scanner;
 
