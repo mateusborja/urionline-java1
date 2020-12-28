@@ -7,7 +7,7 @@
  *
  */
 
-package com.mateusborja.urionlinejava1.uri1048;
+package com.mateusborja.urionline.Iniciante.uri1048;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -34,12 +34,12 @@ public class uri1048 {
             percentual = 4.0;
         }
 
-        double reajuste = salario * percentual / 100.0;
+        double reajuste = (salario * percentual) / 100.0;
         double novoSalario = salario + reajuste;
 
         System.out.printf("Novo salario: %.2f%n", novoSalario);
         System.out.printf("Reajuste ganho: %.2f%n", reajuste);
-        System.out.printf("Em percentual: %.0f %%%n", percentual);
+        System.out.printf("Em percentual: %.0f%%%n", percentual);
 
         sc.close();
     }
