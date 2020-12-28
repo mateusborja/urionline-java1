@@ -1,7 +1,16 @@
+/*
+ *
+ *  * Copyright (c) 2020.  | All rights reserved
+ *  * Mateus Borja // UX Designer • 3D Artist • Developer
+ *  * www.mateusborja.life
+ *
+ *
+ */
+
 /* java Math.sqrt(x) e Math.pow(x,y)
 distrancia entre dois pontos uri 1015
  */
-package com.mateusborja.urionlinejava1.uri1015;
+package com.mateusborja.urionline.Iniciante.uri1015;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -23,7 +32,6 @@ public class uri1015 {
         distancia = Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
 
         System.out.printf("%.4f%n", distancia);
-
         sc.close();
 
     }
