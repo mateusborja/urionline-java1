@@ -1,5 +1,14 @@
+/*
+ *
+ *  * Copyright (c) 2020.  | All rights reserved
+ *  * Mateus Borja // UX Designer • 3D Artist • Developer
+ *  * www.mateusborja.life
+ *
+ *
+ */
+
 //java uri 1014
-package com.mateusborja.urionlinejava1.uri1014;
+package com.mateusborja.urionline.Iniciante.uri1014;
 
 import java.util.Locale;
 import java.util.Scanner;
